@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 운영체제
+.DS_Store
+Thumbs.db
+
+# 데이터 파일 (용량 큰 원본 데이터는 제외)
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.zip
+
+# 단, .gitkeep은 추적
+!**/.gitkeep
+
+# 임시 파일
+*.tmp
+*.log
+*.bak
+
+# 발표 자료 (Word, PowerPoint 임시 파일)
+~$*.pptx
+~$*.docx
